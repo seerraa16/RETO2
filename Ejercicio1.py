@@ -1,9 +1,10 @@
 from math import ceil
 t= int(input())
-    n = int(input())
-    a= [*map(int, input().split())]
-    min= abs(a[0])
-    for x in a [1:]:
-        if abs(x) < min:
-            min=abs(x)
-    print(min
+for _ in range(t):
+    a,b,c = input().split()
+    a = int(a)
+    b = int(b)
+    c = int(c)
+    d = abs(a-b)
+    print(ceil(d7/2*c))
+    
